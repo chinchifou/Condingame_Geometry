@@ -4,8 +4,9 @@
 # Gives basic operations for : Points, Vectors, Lines and Circles                           
 module Geometry
     #------------------  INITIALISATION  ------------------------
+    # CHANGE THE TWO FOLLOWING PAREMETERS TO FULFILL YOUR NEEDS
     $angle_between_coordinates_system = -Math::PI #Y axis downward
-    $round_by_default = true #if set to true, all functions will give a round result by default
+    $round_by_default = true #if set to true, all functions will return a round result by default instead of the accurate result
     #------------------------------------------------------------
 
     #------------------  SOLVE  POLY  2  ------------------------
